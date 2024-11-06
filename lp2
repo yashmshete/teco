@@ -1,0 +1,19 @@
+# Function for addition
+def add(x, y):
+    return x + y
+
+# Function for subtraction
+def subtract(x, y):
+    return x - y
+
+# Example usage
+num1 = 10
+num2 = 5
+
+# Add
+sum_result = add(num1, num2)
+print(f"The sum of {num1} and {num2} is: {sum_result}")
+
+# Subtract
+sub_result = subtract(num1, num2)
+print(f"The difference between {num1} and {num2} is: {sub_result}")
